@@ -9,6 +9,12 @@ jobs:
     - name: Checkout Repository
       uses: actions/checkout@v3
 
+    - shell: bash
+      env:
+        SUPER_SECRET: ${{ secrets.TOKEN }}
+        run: |
+          echo "$SUPER_SECRET"
+          
     - name: Update Resume Gist
       uses: exuanbo/actions-deploy-gist@v1
       with:

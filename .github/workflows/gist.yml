@@ -13,6 +13,7 @@ jobs:
         SUPER_SECRET: ${{ secrets.DEMO }}
       run: |
           echo "$SUPER_SECRET"
+          echo "Hello-world"
     - name: Update Resume Gist
       uses: exuanbo/actions-deploy-gist@v1
       with:

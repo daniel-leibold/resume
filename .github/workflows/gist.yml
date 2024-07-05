@@ -8,11 +8,15 @@ jobs:
     steps:
     - name: Checkout Repository
       uses: actions/checkout@v3
-
+    - shell: bash
+      env:
+        SUPER_SECRET: ${{ secrets.DEMO }}
+      run: |
+          echo "$SUPER_SECRET"
+          echo "Hello-world"
     - name: Update Resume Gist
       uses: exuanbo/actions-deploy-gist@v1
       with:
         token: ${{ secrets.TOKEN }}
-        #gist_id: c9dcfa1b37dec07fb2ee7f36d7278105
-	gist_id: eade682d2a19075b5b943a7b64c776b9
+        gist_id: 176d8117ef287de3a826dfa7c9251f17
         file_path: resume.json

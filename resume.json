@@ -52,25 +52,63 @@
       "name": "Frontend"
     },
     {
-      "keywords": ["Python", "Kubernetes", "Python", "Postgres", "Prometheus", "Serverless"],
+      "keywords": [
+        "Python",
+        "Kubernetes",
+        "Python",
+        "Postgres",
+        "Prometheus",
+        "Serverless"
+      ],
       "level": "Senior",
       "name": "Backend"
     },
     {
-      "keywords": ["Azure", "GitLab", "Azure DevOps", "GitHub"],
+      "keywords": [
+        "Azure",
+        "GitLab",
+        "Azure DevOps",
+        "GitHub"
+      ],
       "level": "Senior",
       "name": "Devops"
     }
   ],
-  "awards": [
+  "certificates": [
     {
-      "title": "",
-      "awarder": ""
+      "date": "2024-01",
+      "issuer": "GitHub",
+      "url": "https://learn.microsoft.com/en-us/collections/n5p4a5z7keznp5",
+      "name": "GitHub Actions"
+    },
+    {
+      "date": "2024-01",
+      "issuer": "GitHub",
+      "url": "https://learn.microsoft.com/en-us/collections/o1njfe825p602p",
+      "name": "GitHub Foundations"
+    },
+    {
+      "date": "2015-12",
+      "issuer": "IPMA - Level D",
+      "name": "Certified Project Specialist according to IPMA 3.0"
+    },
+    {
+      "date": "2017-02",
+      "issuer": "Scrum.org",
+      "name": "Professional Scrum Master (PSM I)"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Testing with VS2012. 'From Dogma to Karma'.",
+      "publisher": "Windows Developer",
+      "releaseDate": "2013-08-01",
+      "summary": "Writing an article about TDD with my former colleague Christoph Molenda."
     }
   ],
   "work": [
     {
-      "summary": "Azure DevOps Automation Engineer in an agile product team (7 people). Cloud-native product development on MS Azure (PaaS) via ARM Templates. Facilitator of agile practices and principles through servant leadership.",
+      "summary": "Azure DevOps Automation Engineer in an agile product team (7 people). Cloud-native product development on MS Azure (PaaS) via ARM Templates, PowerShell and C#. Facilitator of agile practices and principles through servant leadership.",
       "website": "https://pwc.de/",
       "name": "PwC IT Services GmbH",
       "location": "Düsseldorf",
@@ -78,12 +116,13 @@
       "startDate": "2017-10-01",
       "endDate": "2019-01-01",
       "highlights": [
-        "CI/CD & Azure DevOps", 
-        "Role Model for Product Developement (be the first of everything)", 
-        "Stream aligned Product Team"]
+        "CI/CD & Azure DevOps",
+        "Role Model for Product Developement (be the first of everything)",
+        "Stream aligned Product Team"
+      ]
     },
     {
-      "summary": "Developer Evangelist in a cross-functional team (PO, Infrastructure & Security Engineer, Dev, 9 people) that provides platform products as self-services for developers (IDP). “Platform as a Product“-Mindset following Team Topologies.Facilitation of the user experience for the platform services (change of perspective, developer experience (DevEx)). Continuous introduction of suggestions for improve-ment in Review, Retro and 'Teach in the Moment' based on user feedback (qualitative and quantitative).",
+      "summary": "Developer Evangelist in a cross-functional team (PO, Infrastructure & Security Engineer, Dev, 9 people) that provides platform products as self-services for developers (IDP). “Platform as a Product“-Mindset following Team Topologies. Facilitation of the user experience for the platform services (change of perspective, developer experience (DevEx)). Leading user interviews and gaining insights (qualitative and quantitative).",
       "pinned": true,
       "website": "https://pwc.de/",
       "name": "PricewaterhouseCoopers GmbH Wirtschaftsprüfungsgesellschaft",
@@ -102,15 +141,21 @@
   "interests": [
     {
       "name": "Sports",
-      "keywords": ["Soccer (indoor)"]
+      "keywords": [
+        "Soccer (indoor)"
+      ]
     },
     {
       "name": "Wim Hof practitioner",
-      "keywords": ["Breathwork. To win the day ;)"]
+      "keywords": [
+        "Breathwork. To win the day ;)"
+      ]
     },
     {
       "name": "Open Source",
-      "keywords": ["Resume"]
+      "keywords": [
+        "Resume"
+      ]
     }
   ]
 }

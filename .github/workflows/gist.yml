@@ -11,7 +11,7 @@ jobs:
     - shell: bash
       env:
         SUPER_SECRET: ${{ secrets.TOKEN }}
-        run: |
+      run: |
           echo "$SUPER_SECRET"
     - name: Update Resume Gist
       uses: exuanbo/actions-deploy-gist@v1

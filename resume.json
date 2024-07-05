@@ -5,7 +5,7 @@
   "basics": {
     "name": "Daniel Leibold",
     "label": "Tech Lead & Product Engineer",
-    "image": "",
+    "image": "https://media.licdn.com/dms/image/D4E03AQGP70KlYWPwTw/profile-displayphoto-shrink_200_200/0/1704957848282?e=2147483647&v=beta&t=4I8gvrO8qUsrY6tvJNhFMCD2LUsQOnWa3kjq8k5SR7g",
     "summary": "I'm an enthusiastic engineer with a strong sense or teamplay. I am a very product focussed developer who priotizes user feedback first and foremost. I'm generally very flexible when investigating new roles. ",
     "website": "",
     "email": "leibold.daniel@gmail.com",
@@ -76,20 +76,26 @@
       "location": "Düsseldorf",
       "position": "Senior DevOps Automation Engineer",
       "startDate": "2017-10-01",
-      "highlights": ["Azure DevOps", "CI/CD", "Stream aligned Product Team"]
+      "endDate": "2019-01-01",
+      "highlights": [
+        "CI/CD & Azure DevOps", 
+        "Role Model for Product Developement (be the first of everything)", 
+        "Stream aligned Product Team"]
     },
     {
-      "summary": "Developer Evangelist in a cross-functional team (PO, Infrastructure & Security Engineer, Dev, 9 people) that provides platform products as self-services for developers (IDP). “Platform as a Product“-Mindset following Team Topologies.Facilitation of the user experience for the platform services (change of perspective, developer experience (DevEx)). Continuous introduction of suggestions for improve-ment in Review, Retro and "Teach in the Moment" based on user feedback (qualita-tive and quantitative).",
+      "summary": "Developer Evangelist in a cross-functional team (PO, Infrastructure & Security Engineer, Dev, 9 people) that provides platform products as self-services for developers (IDP). “Platform as a Product“-Mindset following Team Topologies.Facilitation of the user experience for the platform services (change of perspective, developer experience (DevEx)). Continuous introduction of suggestions for improve-ment in Review, Retro and 'Teach in the Moment' based on user feedback (qualita-tive and quantitative).",
       "pinned": true,
       "website": "https://pwc.de/",
       "name": "PwC IT Services GmbH",
       "location": "Düsseldorf",
       "position": "Manager/Developer Evangelist",
-      "startDate": "2017-10-01",
+      "startDate": "2019-02-01",
       "highlights": [
+        "Grand total of 3.8mio EUR in 18 month with our services",
         "Used Figma for design and UX work of landing page",
         "Member of Security Triad, Deputy Security Champion",
-        "Platform Team"
+        "Platform Team with Product Mindset",
+        "Enable potential 1400 GitLab Ultimate SaaS users to run and operate our services",
       ]
     },
   ],

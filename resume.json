@@ -6,9 +6,9 @@
   "basics": {
     "name": "Daniel Leibold",
     "label": "Tech Lead & Product Engineer",
-    "image": "https://raw.githubusercontent.com/daniel-leibold/resume/master/icon_daniel_leibold.jpg",
+    "image": "https://avatars.githubusercontent.com/u/26811356",
     "summary": "I'm an enthusiastic and product focused engineer with a strong sense for teamplay. I like TDD and ATDD to favour outcome over output. I'm generally very flexible when investigating new roles.",
-    "website": "",
+    "url": "https://daniel-leibold.github.io/",
     "phone":"(49) 1520-3879417",
     "email": "leibold.daniel@gmail.com",
     "location": {
@@ -93,24 +93,24 @@
   ],
   "certificates": [
     {
-      "date": "2024-01",
+      "date": "2024-01-01",
       "issuer": "GitHub",
       "url": "https://learn.microsoft.com/en-us/collections/n5p4a5z7keznp5",
       "name": "GitHub Actions"
     },
     {
-      "date": "2024-01",
+      "date": "2024-01-01",
       "issuer": "GitHub",
       "url": "https://learn.microsoft.com/en-us/collections/o1njfe825p602p",
       "name": "GitHub Foundations"
     },
     {
-      "date": "2015-12",
+      "date": "2015-12-01",
       "issuer": "IPMA - Level D",
       "name": "Certified Project Specialist according to IPMA 3.0"
     },
     {
-      "date": "2017-02",
+      "date": "2017-02-01",
       "issuer": "Scrum.org",
       "name": "Professional Scrum Master (PSM I)",
       "url": "https://www.scrum.org/user/62463"
@@ -177,8 +177,8 @@
       "name": "MT AG",
       "location": "Ratingen",
       "position": "Consultant / Developer",
-      "startDate": "2013-12-01",
-      "endDate": "2013-01-01",
+      "startDate": "2013-01-01",
+      "endDate": "2013-12-31",
       "highlights": [
         "Design and test-driven development (TDD) of a WCF Data Access Layer to provide data from an Oracle 10g database in a multi-layer architecture",
         "Creation of best practices and C# coding style guides within the department"

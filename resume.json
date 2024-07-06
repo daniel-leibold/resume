@@ -76,24 +76,24 @@
   ],
   "certificates": [
     {
-      "date": "2024-01",
+      "date": "2024-01-31",
       "issuer": "GitHub",
       "url": "https://learn.microsoft.com/en-us/collections/n5p4a5z7keznp5",
       "name": "GitHub Actions"
     },
     {
-      "date": "2024-01",
+      "date": "2024-01-31",
       "issuer": "GitHub",
       "url": "https://learn.microsoft.com/en-us/collections/o1njfe825p602p",
       "name": "GitHub Foundations"
     },
     {
-      "date": "2015-12",
+      "date": "2015-12-01",
       "issuer": "IPMA - Level D",
       "name": "Certified Project Specialist according to IPMA 3.0"
     },
     {
-      "date": "2017-02",
+      "date": "2017-02-01",
       "issuer": "Scrum.org",
       "name": "Professional Scrum Master (PSM I)"
     }

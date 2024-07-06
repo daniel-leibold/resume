@@ -200,6 +200,12 @@
   ],
   "interests": [
     {
+      "name": "Family",
+      "keywords": [
+        "My wife and my two kids"
+      ]
+    },
+    {
       "name": "Sports",
       "keywords": [
         "Soccer (indoor)",

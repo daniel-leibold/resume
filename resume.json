@@ -1,13 +1,15 @@
 {
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "meta": {
     "theme": "elegant"
   },
   "basics": {
     "name": "Daniel Leibold",
     "label": "Tech Lead & Product Engineer",
-    "image": "https://media.licdn.com/dms/image/D4E03AQGP70KlYWPwTw/profile-displayphoto-shrink_200_200/0/1704957848282?e=2147483647&v=beta&t=4I8gvrO8qUsrY6tvJNhFMCD2LUsQOnWa3kjq8k5SR7g",
-    "summary": "I'm an enthusiastic engineer with a strong sense for teamplay. I am a very product focussed developer who priotizes user feedback first and foremost. I'm generally very flexible when investigating new roles. ",
+    "image": "https://raw.githubusercontent.com/daniel-leibold/resume/master/icon_daniel_leibold.jpg",
+    "summary": "I'm an enthusiastic and product focused engineer with a strong sense for teamplay. I like TDD and ATDD to favour outcome over output. I'm generally very flexible when investigating new roles.",
     "website": "",
+    "phone":"(49) 1520-3879417",
     "email": "leibold.daniel@gmail.com",
     "location": {
       "city": "Düsseldorf",
@@ -15,7 +17,7 @@
     },
     "profiles": [
       {
-        "username": "daniel-leibold-43893476",
+        "username": "Daniel Leibold",
         "url": "https://de.linkedin.com/in/daniel-leibold-43893476",
         "network": "linkedin"
       },
@@ -30,15 +32,19 @@
     {
       "endDate": "2006-08-01",
       "startDate": "2002-09-01",
-      "area": "Software Engineeering",
+      "area": "Software Engineering",
       "studyType": "Diploma in Computer Science (FH)",
       "institution": "The University of Applied Sciences in Osnabrück"
     }
   ],
   "references": [
     {
-      "reference": "",
-      "name": ""
+      "reference": "Requirements means 'shut up' aka. user story mapping. Outcome vs. Output. see <https://youtu.be/AorAgSrHjKM?feature=shared&t=2000>",
+      "name": "Jeff Patton"
+    },
+    {
+      "reference": "Measuring developer productivity? A response to McKinsey. see <https://newsletter.pragmaticengineer.com/p/measuring-developer-productivity>",
+      "name": "Kent Beck"
     }
   ],
   "skills": [
@@ -48,54 +54,66 @@
         "SCSS / CSS",
         "Python Flask"
       ],
-      "level": "Senior",
+      "level": "Intermediate",
       "name": "Frontend"
     },
     {
       "keywords": [
         "Python",
-        "Kubernetes",
-        "Python",
-        "Postgres",
-        "Prometheus",
-        "Serverless"
+        "Kubernetes (mainly AKS)",
+        "Postgres / MS SQL",
+        "Prometheus / Grafana / Loki",
+        "Rego / OPA"
       ],
-      "level": "Senior",
+      "level": "Advanced",
       "name": "Backend"
     },
     {
       "keywords": [
-        "Azure",
         "GitLab",
         "Azure DevOps",
-        "GitHub"
+        "GitHub & GitHub Actions",
+        "Monitoring / Logging / Telemetry"
       ],
-      "level": "Senior",
-      "name": "Devops"
+      "level": "Master",
+      "name": "DevOps"
+    },
+    {
+      "keywords": [
+        "System Thinking",
+        "User centric Design",
+        "SCRUM / Kanban",
+        "TDD / ATDD",
+        "XP / Pair Programming",
+        "Patterns (GoF)"
+      ],
+      "level": "Advanced",
+      "name": "Methods"
     }
   ],
   "certificates": [
     {
-      "date": "2024-01-31",
+      "date": "2024-01",
       "issuer": "GitHub",
       "url": "https://learn.microsoft.com/en-us/collections/n5p4a5z7keznp5",
       "name": "GitHub Actions"
     },
     {
-      "date": "2024-01-31",
+      "date": "2024-01",
       "issuer": "GitHub",
       "url": "https://learn.microsoft.com/en-us/collections/o1njfe825p602p",
       "name": "GitHub Foundations"
     },
     {
-      "date": "2015-12-01",
+      "date": "2015-12",
       "issuer": "IPMA - Level D",
       "name": "Certified Project Specialist according to IPMA 3.0"
     },
     {
-      "date": "2017-02-01",
+      "date": "2017-02",
       "issuer": "Scrum.org",
-      "name": "Professional Scrum Master (PSM I)"
+      "name": "Professional Scrum Master (PSM I)",
+      "url": "https://www.scrum.org/user/62463"
     }
   ],
   "publications": [
@@ -103,10 +121,29 @@
       "name": "Testing with VS2012. 'From Dogma to Karma'.",
       "publisher": "Windows Developer",
       "releaseDate": "2013-08-01",
-      "summary": "Writing an article about TDD with my former colleague Christoph Molenda."
+      "summary": "Writing an article about TDD with my former colleague Christoph Molenda.",
+      "url": "https://entwickler.de/testing/vom-dogma-zum-karma"
     }
   ],
   "work": [
+    {
+      "summary": "Developer/Evangelist in a cross-functional team (PO, Infrastructure & Security Engineer, Dev, 9 people) that provides platform products as self-services for developers (IDP). “Platform as a Product“-Mindset following Team Topologies. Facilitation of the user experience for the platform services (change of perspective, developer experience (DevEx)). Leading user interviews and gaining insights (qualitative and quantitative) to improve the product.",
+      "pinned": true,
+      "website": "https://pwc.de/",
+      "name": "PricewaterhouseCoopers GmbH Wirtschaftsprüfungsgesellschaft",
+      "location": "Düsseldorf",
+      "position": "Manager/Developer Evangelist",
+      "startDate": "2019-02-01",
+      "highlights": [
+        "Grand total of 3.8mio EUR in 18 month with our services",
+        "Central Self-Service UI based on Flask",
+        "Used Figma for design and UX work of landing page",
+        "Member of Security Triad, Deputy Security Champion",
+        "Technical enablement of GitLab Ultimate SaaS for 1400 users in PwC DE",
+        "Community Call Ambassador (60+ recordings of knowledge)",
+        "Design and Build new Container Service in context of global enterprise"
+      ]
+    },
     {
       "summary": "Azure DevOps Automation Engineer in an agile product team (7 people). Cloud-native product development on MS Azure (PaaS) via ARM Templates, PowerShell and C#. Facilitator of agile practices and principles through servant leadership.",
       "website": "https://pwc.de/",
@@ -116,25 +153,48 @@
       "startDate": "2017-10-01",
       "endDate": "2019-01-01",
       "highlights": [
-        "CI/CD & Azure DevOps",
-        "Role Model for Product Developement (be the first of everything)",
-        "Stream aligned Product Team"
+        "Role Model for Product Development (be the first of everything)",
+        "Stream aligned Product Team",
+        "Product Development with CI/CD & Azure DevOps"
       ]
     },
     {
-      "summary": "Developer Evangelist in a cross-functional team (PO, Infrastructure & Security Engineer, Dev, 9 people) that provides platform products as self-services for developers (IDP). “Platform as a Product“-Mindset following Team Topologies. Facilitation of the user experience for the platform services (change of perspective, developer experience (DevEx)). Leading user interviews and gaining insights (qualitative and quantitative).",
-      "pinned": true,
-      "website": "https://pwc.de/",
-      "name": "PricewaterhouseCoopers GmbH Wirtschaftsprüfungsgesellschaft",
-      "location": "Düsseldorf",
-      "position": "Manager/Developer Evangelist",
-      "startDate": "2019-02-01",
+      "summary": "Senior consultant, architect and developer in the field of portals and collaboration for the integration of Microsoft technologies into corporate enterprises. Leading, conducting and recording requirements workshops for the customer department with formal or informal methodology. Responsible for the development of Microsoft solutions for customers using Visual Studio and TFS Online.",
+      "website": "https://www.convista.com/",
+      "name": "ConVista Consulting AG",
+      "location": "Cologne",
+      "position": "Senior Consultant / Solution Architect",
+      "startDate": "2014-01-01",
+      "endDate": "2017-09-01",
       "highlights": [
-        "Grand total of 3.8mio EUR in 18 month with our services",
-        "Used Figma for design and UX work of landing page",
-        "Member of Security Triad, Deputy Security Champion",
-        "Platform Team with Product Mindset",
-        "Enable potential 1400 GitLab Ultimate SaaS users to run and operate our services"
+        "Agile team leadership during implementation in the role of Scrum Master and Agile Coach",
+        "Technical Lead Developer for client projects"
+      ]
+    },
+    {
+      "summary": "Architect and developer in the field of Microsoft technologies. ",
+      "website": "https://www.mt-itsolutions.com/ueber-uns/",
+      "name": "MT AG",
+      "location": "Ratingen",
+      "position": "Consultant / Developer",
+      "startDate": "2013-12-01",
+      "endDate": "2013-01-01",
+      "highlights": [
+        "Design and test-driven development (TDD) of a WCF Data Access Layer to provide data from an Oracle 10g database in a multi-layer architecture",
+        "Creation of best practices and C# coding style guides within the department"
+      ]
+    },
+    {
+      "summary": ".NET Developer and consultant. Development of various SharePoint portal solutions for internal business processes and workflows. Expert in the field of dynamic provisioning of SharePoint farms in enterprise companies (private cloud).",
+      "website": "https://www.computacenter.com/de-de/who-we-are",
+      "name": "Computa Center",
+      "location": "Ratingen",
+      "position": "Developer / Technology specialist",
+      "startDate": "2011-01-01",
+      "endDate": "2012-12-01",
+      "highlights": [
+        "Turn a PKI script collection into a web based (internal) Product for enrolling certificates automatically",
+        "Publish articles on Windows Developer"
       ]
     }
   ],
@@ -142,7 +202,8 @@
     {
       "name": "Sports",
       "keywords": [
-        "Soccer (indoor)"
+        "Soccer (indoor)",
+        "Tennis (outdoor)"
       ]
     },
     {
@@ -154,7 +215,7 @@
     {
       "name": "Open Source",
       "keywords": [
-        "Resume"
+        "All of it"
       ]
     }
   ]

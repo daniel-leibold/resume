@@ -23,6 +23,7 @@
     "@jsonresume/jsonresume-theme-class": "^0.4.2",
     "jsonresume-theme-elegant": "^1.16.1",
     "jsonresume-theme-kendall": "^0.2.0",
-    "jsonresume-theme-professional": "^1.1.0"
+    "jsonresume-theme-professional": "^1.1.0",
+    "jsonresume-theme-rickosborne": "^2022.9.16-T1450"
   }
 }

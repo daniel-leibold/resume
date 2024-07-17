@@ -23,3 +23,9 @@ The basic steps are
 5) Now simply push to your repo, and your `resume.json` from the repo, will publish and override your gist `resume.json` and thus updating the registry to match
 
 Enjoy!
+
+## Create resume.pdf
+
+1. Setup cli: `npm install -g resume-cli`. see <https://github.com/jsonresume/resume-cli>.
+2. Install theme: `npm install jsonresume-theme-elegant`
+3. Create export: `resume export resume.pdf --format pdf --theme elegant`.

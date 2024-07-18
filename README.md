@@ -24,8 +24,9 @@ The basic steps are
 
 Enjoy!
 
-## Create resume.pdf
+## Setup and create resume.pdf
 
-1. Setup cli: `npm install -g resume-cli`. see <https://github.com/jsonresume/resume-cli>.
-2. Install theme: `npm install jsonresume-theme-elegant`
-3. Create export: `resume export resume.pdf --format pdf --theme elegant`.
+1. Pre-Req. node version v20.15.0.
+   - install nvm and `nvm use v20.15.0`
+1. Run `bash setup.sh` to setup resume-cli locally.
+1. Run `bash create.sh` to produce pdf files for several themes.

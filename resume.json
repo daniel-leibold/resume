@@ -37,60 +37,48 @@
       "institution": "The University of Applied Sciences in Osnabrück"
     }
   ],
-  "references": [
-    {
-      "reference": "Requirements means 'shut up' aka. user story mapping. Outcome vs. Output. see <https://youtu.be/AorAgSrHjKM?feature=shared&t=2000>",
-      "name": "Jeff Patton"
-    },
-    {
-      "reference": "Measuring developer productivity? A response to McKinsey. see <https://newsletter.pragmaticengineer.com/p/measuring-developer-productivity>",
-      "name": "Kent Beck"
-    }
-  ],
   "skills": [
     {
       "keywords": [
-        "HTML / JavaScript",
-        "SCSS / CSS",
-        "Python Flask"
-      ],
-      "level": "Intermediate",
-      "name": "Frontend"
-    },
-    {
-      "keywords": [
-        "Python",
-        "Kubernetes (mainly AKS)",
-        "Postgres / MS SQL",
-        "Prometheus / Grafana / Loki",
-        "Rego / OPA"
-      ],
-      "level": "Advanced",
-      "name": "Backend"
-    },
-    {
-      "keywords": [
+        "CI / CD",
         "GitLab",
         "Azure DevOps",
-        "GitHub & GitHub Actions",
-        "IaC (Helm, Terraform)",
-        "Monitoring / Logging / Telemetry"
+        "IaC (Helm, Terraform)"
       ],
       "level": "Master",
       "name": "DevOps"
     },
     {
       "keywords": [
-        "System Thinking",
+        "Python",
+        "Kubernetes (mainly AKS)",
+        "REST API",
+        "Prometheus / Grafana / Loki",
+        "Postgres / MS SQL"
+      ],
+      "level": "Advanced",
+      "name": "Backend"
+    },
+    {
+      "keywords": [
         "User centric Design",
         "Good enough for wow -  mindset",
         "SCRUM / Kanban",
         "TDD / ATDD",
-        "XP / Pair Programming",
-        "Patterns (GoF)"
+        "XP / Pair Programming"
       ],
       "level": "Advanced",
       "name": "Methods"
+    },
+    {
+      "keywords": [
+        "HTML / JavaScript",
+        "SCSS / CSS",
+        "Python Flask",
+        "ASP.NET"
+      ],
+      "level": "Intermediate",
+      "name": "Frontend"
     }
   ],
   "certificates": [
@@ -129,7 +117,7 @@
   ],
   "work": [
     {
-      "summary": "Developer/Evangelist in a cross-functional team (PO, Infrastructure & Security Engineer, Dev, 9 people) that provides platform products as self-services for developers (IDP). “Platform as a Product“-Mindset following Team Topologies. Facilitation of the user experience for the platform services (change of perspective, developer experience (DevEx)). Leading user interviews and gaining insights (qualitative and quantitative) to improve the product.",
+      "summary": "Developer/Evangelist in a cross-functional and empowered product team (PO, Infrastructure & Security Engineer, Dev, 9 people) that provides platform products as self-services for developers (IDP) to reduce cognitive load. Developer experience (DevEx) Lead. Leading user interviews and gaining insights (qualitative and quantitative) to improve the product. Leading, building and maintaining user trainings on our platform based on GitLab, Terraform and Kubernetes.",
       "pinned": true,
       "website": "https://pwc.de/",
       "name": "PricewaterhouseCoopers GmbH Wirtschaftsprüfungsgesellschaft",
@@ -137,17 +125,16 @@
       "position": "Manager/Developer Evangelist",
       "startDate": "2019-02-01",
       "highlights": [
-        "Grand total of 3.8mio EUR in 18 month with our services",
-        "Central Self-Service UI based on Flask",
-        "Used Figma for design and UX work of landing page and Hotjar and Piwik for user tracking",
-        "Member of Security Triad, Deputy Security Champion",
-        "Technical enablement of GitLab Ultimate SaaS for 1400 users in PwC DE",
-        "Community Call Ambassador (60+ recordings of knowledge)",
-        "Design and Build new Container Service in context of global enterprise"
+        "Development and Maintaining of central Self-Service UI based on Python Flask by integrating our monitoring stack (Prometheus, Loki, Grafana) and our CI/CD pipeline in GitLab",
+        "Design and Build new Container Services based on Kubernetes and Azure in context of global enterprise",
+        "Engaging developers to share knowledge as Community Call Ambassador (60+ recordings of knowledge)",
+        "Deputy Product Owner and stand-in Scrum Master for the Team",
+        "Member of Security Triad & Deputy Security Champion to foster secure-by-design principles",
+        "Tech Stack: Kubernetes, Terraform, Azure, GitLab Ultimate, Hashicorp Vault, OPA, Prometheus, Grafana, Loki, Visual Studio Code, Python, Bash"
       ]
     },
     {
-      "summary": "Azure DevOps Automation Engineer in an agile product team (7 people). Cloud-native product development on MS Azure (PaaS) via ARM Templates, PowerShell and C#. Facilitator of agile practices and principles through servant leadership.",
+      "summary": "Azure DevOps Automation Engineer in an agile product team (7 people). Facilitator of agile practices and principles through servant leadership.",
       "website": "https://pwc.de/",
       "name": "PwC IT Services GmbH",
       "location": "Düsseldorf",
@@ -156,22 +143,18 @@
       "endDate": "2019-01-01",
       "highlights": [
         "Role Model for Product Development (be the first of everything)",
-        "Stream aligned Product Team",
-        "Product Development with CI/CD & Azure DevOps"
+        "Development of WebApplications & Services (Azure WebApp, Azure MS SQL) with Visual Studio and C# .NET",
+        "Deployment of services on Azure PaaS with ARM Templates & CI/CD on Azure DevOps"
       ]
     },
     {
-      "summary": "Senior consultant, architect and developer in the field of portals and collaboration for the integration of Microsoft technologies into corporate enterprises. Leading, conducting and recording requirements workshops for the customer department with formal or informal methodology. Responsible for the development of Microsoft solutions for customers using Visual Studio and TFS Online.",
+      "summary": "Senior consultant, architect and developer in the field of portals and collaboration for the integration of Microsoft technologies into corporate enterprises.",
       "website": "https://www.convista.com/",
       "name": "ConVista Consulting AG",
       "location": "Cologne",
       "position": "Senior Consultant / Solution Architect",
       "startDate": "2014-01-01",
-      "endDate": "2017-09-01",
-      "highlights": [
-        "Agile team leadership during implementation in the role of Scrum Master and Agile Coach",
-        "Technical Lead Developer for client projects"
-      ]
+      "endDate": "2017-09-01"
     },
     {
       "summary": "Architect and developer in the field of Microsoft technologies.",
@@ -180,39 +163,25 @@
       "location": "Ratingen",
       "position": "Consultant / Developer",
       "startDate": "2013-01-01",
-      "endDate": "2013-12-31",
-      "highlights": [
-        "Design and test-driven development (TDD) of a WCF Data Access Layer to provide data from an Oracle 10g database in a multi-layer architecture",
-        "Creation of best practices and C# coding style guides within the department"
-      ]
+      "endDate": "2013-12-31"
     },
     {
-      "summary": ".NET Developer and consultant. Development of various SharePoint portal solutions for internal business processes and workflows. Expert in the field of dynamic provisioning of SharePoint farms in enterprise companies (private cloud).",
+      "summary": ".NET Developer and consultant. Development of various SharePoint portal solutions for internal business processes and workflows.",
       "website": "https://www.computacenter.com/de-de/who-we-are",
       "name": "Computa Center",
       "location": "Ratingen",
       "position": "Developer / Technology specialist",
       "startDate": "2011-01-01",
-      "endDate": "2012-12-01",
-      "highlights": [
-        "Turn a PKI script collection into a web based (internal) Product for enrolling certificates automatically",
-        "Publish articles on Windows Developer"
-      ]
+      "endDate": "2012-12-01"
     },
     {
-      "summary": "Software Engineer responsible for a distributed system for mass data processing (200-500 users worldwide). Configuration manager for different development lines. Technical expert and 'in-house' technology consultant in the field of data evaluation and data preparation. Collaborate with internal customers. Requirements analysis. Multitier and client – server programming.",
+      "summary": "Software Engineer in the field of pipeline inspection.",
       "website": "https://www.rosen-group.com/en",
       "name": "Rosen",
       "location": "Lingen (Ems)",
       "position": "Software Engineer",
       "startDate": "2006-12-01",
-      "endDate": "2010-12-31",
-      "highlights": [
-        "Early adopter of modern software development practices",
-        "Unit-Testing & TDD using NUnit and .NET",
-        "Continuous Integration with CruiseControl.NET",
-        "Distributed system for mass data processing (200-500 users worldwide)"
-      ]
+      "endDate": "2010-12-31"
     }
   ],
   "interests": [

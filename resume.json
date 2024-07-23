@@ -117,7 +117,7 @@
   ],
   "work": [
     {
-      "summary": "Developer/Evangelist in a cross-functional and empowered product team (PO, Infrastructure & Security Engineer, Dev, 9 people) that provides platform products as self-services for developers (IDP) to reduce cognitive load. Developer experience (DevEx) Lead. Leading user interviews and gaining insights (qualitative and quantitative) to improve the product. Leading, building and maintaining user trainings on our platform based on GitLab, Terraform and Kubernetes.",
+      "summary": "Developer and Manager in a cross-functional and empowered product team (9 people) that provides platform products as self-services for developers (IDP) to reduce cognitive load. Developer experience (DevEx) Lead. Leading, building and maintaining user trainings and documentation on our platform based on GitLab, Terraform and Kubernetes (500 users). Improve operational efficency with automation on Python, Kubernetes and Terraform.",
       "pinned": true,
       "website": "https://pwc.de/",
       "name": "PricewaterhouseCoopers GmbH Wirtschaftsprüfungsgesellschaft",
@@ -128,8 +128,7 @@
         "Development and Maintaining of central Self-Service UI based on Python Flask by integrating our monitoring stack (Prometheus, Loki, Grafana) and our CI/CD pipeline in GitLab",
         "Design and Build new Container Services based on Kubernetes and Azure in context of global enterprise",
         "Engaging developers to share knowledge as Community Call Ambassador (60+ recordings of knowledge)",
-        "Deputy Product Owner and stand-in Scrum Master for the Team",
-        "Member of Security Triad & Deputy Security Champion to foster secure-by-design principles",
+        "Deputy Product Owner, stand-in Scrum Master for the Team and Deputy Security Champion",
         "Tech Stack: Kubernetes, Terraform, Azure, GitLab Ultimate, Hashicorp Vault, OPA, Prometheus, Grafana, Loki, Visual Studio Code, Python, Bash"
       ]
     },

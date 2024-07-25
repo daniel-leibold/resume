@@ -5,14 +5,14 @@
   },
   "basics": {
     "name": "Daniel Leibold",
-    "label": "Tech Lead & Product Engineer",
+    "label": "Senior DevOps Engineer",
     "image": "https://avatars.githubusercontent.com/u/26811356?v=4",
     "summary": "I'm an enthusiastic and product focused engineer with a strong sense for teamplay. I like TDD and ATDD to favour outcome over output. I'm generally very flexible when investigating new roles.",
     "url": "https://daniel-leibold.github.io/",
     "phone":"(49) 1520-3879417",
     "email": "leibold.daniel@gmail.com",
     "location": {
-      "city": "Düsseldorf",
+      "city": "Düsseldorf / Neuss",
       "countryCode": "DE"
     },
     "profiles": [
@@ -54,7 +54,7 @@
         "Kubernetes (mainly AKS)",
         "REST API",
         "Prometheus / Grafana / Loki",
-        "Postgres / MS SQL"
+        "PostgreSQL / MS SQL"
       ],
       "level": "Advanced",
       "name": "Backend"
@@ -117,19 +117,21 @@
   ],
   "work": [
     {
-      "summary": "Developer and Manager in a cross-functional and empowered product team (9 people) that provides platform products as self-services for developers (IDP) to reduce cognitive load. Developer experience (DevEx) Lead. Leading, building and maintaining user trainings and documentation on our platform based on GitLab, Terraform and Kubernetes (500 users). Improve operational efficency with automation on Python, Kubernetes and Terraform.",
+      "summary": "Developer and Manager in a cross-functional and empowered product team (9 people) that provides platform products as self-services for developers (IDP) to reduce cognitive load. Developer experience (DevEx) Lead and Software Engineer with focus on all areas from Design, Build, Test, Run, Operate and Monitor. Improve operational efficency with automation on Python, Kubernetes and Terraform along our ecosystem. Leading, building and maintaining user trainings (self-guided) and documentation on our platform based on GitLab, Terraform and Kubernetes (500 users).",
       "pinned": true,
       "website": "https://pwc.de/",
       "name": "PricewaterhouseCoopers GmbH Wirtschaftsprüfungsgesellschaft",
       "location": "Düsseldorf",
-      "position": "Manager/Developer Evangelist",
+      "position": "Developer Evangelist - Manager",
       "startDate": "2019-02-01",
       "highlights": [
-        "Development and Maintaining of central Self-Service UI based on Python Flask by integrating our monitoring stack (Prometheus, Loki, Grafana) and our CI/CD pipeline in GitLab",
-        "Design and Build new Container Services based on Kubernetes and Azure in context of global enterprise",
-        "Engaging developers to share knowledge as Community Call Ambassador (60+ recordings of knowledge)",
+        "Development and Maintaining of central Self-Service UI based on Python Flask by integrating our monitoring stack (Prometheus, Loki, Grafana) and our CI/CD pipeline in GitLab with modern practises (IaC, Pair Programming, TDD). _Principal: eat your own dogfood._",
+        "Decision making on technical and architectural topics in the team via ADR (Architecture Decision Records). Publish operational learnings as post-mortems. _Principal: transparency creates trust._",
+        "Gather user requirements and feedback to improve our platform by interviews, experiments and user tests. _Principal: evidence beats opinion._",
+        "Engaging developers to share knowledge as Community Call Ambassador (60+ recordings of knowledge). _Principal: sharing is caring._",
+        "Design and Build new Container Services based on Kubernetes and Azure in context of global enterprise. (Role: Tech Lead, Product phase: reinvent)",
         "Deputy Product Owner, stand-in Scrum Master for the Team and Deputy Security Champion",
-        "Tech Stack: Kubernetes, Terraform, Azure, GitLab Ultimate, Hashicorp Vault, OPA, Prometheus, Grafana, Loki, Visual Studio Code, Python, Bash"
+        "Tech Stack: Kubernetes, Terraform, Azure, GitLab Ultimate, Azure DevOps, GitHub, Hashicorp Vault, OPA, Prometheus, Grafana, Loki, PostgreSQL, MS SQL, Visual Studio Code, Python, Bash"
       ]
     },
     {
@@ -143,7 +145,8 @@
       "highlights": [
         "Role Model for Product Development (be the first of everything)",
         "Development of WebApplications & Services (Azure WebApp, Azure MS SQL) with Visual Studio and C# .NET",
-        "Deployment of services on Azure PaaS with ARM Templates & CI/CD on Azure DevOps"
+        "Deployment of services on Azure PaaS with ARM Templates & CI/CD on Azure DevOps",
+        "Tech Stack: Azure DevOps, Azure, Visual Studio, C# .NET, ARM Templates, Azure WebApp, Azure MS SQL"
       ]
     },
     {
